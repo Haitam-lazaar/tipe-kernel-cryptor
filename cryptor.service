@@ -1,0 +1,10 @@
+[Unit]
+Description=Startup Module
+After=network.target
+
+[Service]
+
+ExecStart=/root/boot.sh
+
+[Install]
+WantedBy=default.target
